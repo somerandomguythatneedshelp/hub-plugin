@@ -1,0 +1,29 @@
+name: VexctyHub
+version: '1.0-SNAPSHOT'
+main: com.f2erg.vexctyhub.Vexcty
+authors: [ owner ]
+description: Vexcty hub plugin
+website: vexcty.com
+commands:
+  msg:
+    description: Send private messages.
+  vanish:
+    description: Vanish/reveal yourself.
+  nick:
+    description: Change your name.
+  rank:
+    description: Update player's rank.
+  achat:
+    aliases: ac
+    description: Talk in the Staff chat
+  areply:
+    aliases: ar
+    description: Reply a Staff message
+  gm:
+    aliases: gamemode
+    description: Change your gamemode.
+  fly:
+    description: Toggle flight.
+  r:
+    aliases: reply
+    description: Reply private messages

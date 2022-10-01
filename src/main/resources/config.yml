@@ -1,0 +1,77 @@
+server-name: "Vexcty"
+news: "&cUnder Construction!"
+versions: "1.8/1.9/1.10/1.11/1.12"
+website: "www.vexcty.com"
+default-lobby: "#1"
+store-website: "http://vexcty.com/stone.html"
+
+spawn:
+  world: world
+  x: 500
+  y: 150
+  z: 500
+  yaw: 10
+checks:
+  no inventory move: true
+  no item drop: true
+  no item pickup: true
+  no block break: true
+  no block place: true
+  no armor stand break: true
+  no item frame break: true
+  no pvp: true
+  no damage: true
+no void:
+  enabled: true
+selector:
+  name: '&aSelector' # GUI Name
+  size: 54
+  inventory: # The item that appears in your hotbar
+    name: '&aSelector'
+    item: COMPASS
+    slot: 0
+items:
+  '1':
+    item: DIAMOND_BLOCK
+    name: '&a&cKitpvfp'
+    slot: 0
+    lore:
+      - 'Fight to the death to see whos the last one standing'
+    command: 'server kitpvp'
+visibility: # Player visibility toggle
+  enabled: true
+  item slot: 8
+  visible:
+    dye color: LIME
+    name: '&fPlayers: &aVisible'
+  invisible:
+    dye color: GRAY
+    name: '&fPlayers: &7Invisible'
+join messages: # Messages sent when joining the server
+  enabled: false
+  join message: '&7+ &b{player}'
+  leave message: '&7- &b{player}'
+tablist: # The header and footer of the playerlist
+  enabled: true
+  header:
+    - '&b&4Vexcty Network'
+    - '&bTwitter: @VexctyNetwork'
+  footer:
+    - ''
+ender butt: # Throwable enderpearl that you ride
+  enabled: true
+  name: '&aEnder Butt'
+  item slot: 5
+double jump: # Double jump
+  enabled: true
+join sound: # Sound played when joining the server
+  enabled: true
+  sound: LEVEL_UP
+join title: # Title send when joining ths erver
+  enabled: false
+  title: '&b&lWELCOME'
+  subtitle: '&f{player}'
+join motd: # Message sent to the player when joining the server
+  enabled: false
+  message:
+    - ''
